@@ -4,7 +4,7 @@ library(tidymodels)
 
 
 # Read in the data
-students <- read_csv(r"(C:\Users\peddo\OneDrive\Desktop\Lab2\Students.csv)")
+students <- read_csv("Students.csv")
 
 # Mutate variables
 students <- students %>%
